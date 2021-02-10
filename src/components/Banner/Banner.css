@@ -1,0 +1,74 @@
+.masthead {
+    height: 80vh;
+    min-height: 640px;
+    background-image: url('banner2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+  }
+  .masthead h1{
+    width: 50%;
+    padding: 35px;
+    margin: auto;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .text-center{
+    text-align:center;
+  }
+  .flex-container > div {
+    border: 0.5px solid #828282;
+    margin: 10px;
+    text-align: center;
+    line-height: 15px;
+    padding: 40px;
+  }
+  .caption-banner{
+    text-align: center;
+    position: absolute;
+    width: 95%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+
+
+  @media screen and (max-width: 960px) {
+    .masthead h1{
+      width: auto;
+      padding: 0px;
+      margin: 0 0 20px 0;
+    }
+
+    .flex-container > div {
+      border: 0.5px solid #828282;
+      margin: 10px;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      justify-content: flex-start;
+      line-height: 15px;
+      align-items: center;
+      padding: 0px 10px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-container img{
+  width:30px;
+}
+.flex-container p{
+  margin-left:15px;
+}
+
+  }
+
+ 

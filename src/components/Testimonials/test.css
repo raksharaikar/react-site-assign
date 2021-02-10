@@ -1,0 +1,133 @@
+
+.testimonial .testimonial-content {
+    margin: 20px 0 40px 0;
+    position: relative;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    width: 3px;
+    height: 20px;
+    border-top: 20px solid #cdcdcd;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -40px;
+    left: 40px;
+}
+.testimonial .description{
+    padding: 25px 35px;
+    margin: 0;
+    background: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #8d817d;
+    position: relative;
+    text-align: left;
+    
+    box-shadow: 0 3px 3px 2px #c7c7c7;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 8px;
+    text-align: center;
+    background: #dca842;
+    position: absolute;
+}
+
+
+
+.testimonial .testimonial-profile {
+    display: table;
+}
+.testimonial .pic {
+    
+    float: left;
+    
+}
+
+.testimonial img {
+    
+    width: 50px;
+    
+}
+.testimonial .title {
+    display: inline-block;
+    margin: 0 0 0 10px;
+    font-size: 19px;
+    font-weight: bold;
+    /* color: #dca842; */
+    /* position: relative; */
+    text-align: left; 
+    /* top: 22px; */
+    /* text-align: left; */
+}
+.testimonial .title:before{
+    content: "";
+    width: 1px;
+    height: 70px;
+    background: #dca842;
+    position: absolute;
+    top: -8px;
+    left: -15px;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    color: #888;
+    
+}
+
+@media only screen and (max-width: 479px){
+    .testimonial .description{
+        padding: 20px;
+        font-size: 16px;
+    }
+    .testimonial .testimonial-profile{ padding: 10px; }
+    .testimonial .title{ font-size: 16px; margin-top: 5px; }
+    .testimonial .post{ font-size: 13px; }
+}
+
+.grid-test-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    }
+  
+  .grid-test-item {
+      font-size: 30px;
+    text-align: center;
+  }
+
+  .test-section-padding {
+      padding:70px;
+
+  }
+  .section-testimonial{
+    background-color:#f7f7f7;
+
+}
+
+.title{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 960px){
+    .grid-test-container {
+        display: block; 
+       }
+
+       .test-section-padding {
+        padding:70px 20px;
+  
+    }
+
+}
+

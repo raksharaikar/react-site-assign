@@ -1,0 +1,84 @@
+.masthead2 {
+     background-image: url('footer-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .flex-container-form {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .flex-container-form > div {
+    text-align: center;
+    line-height: 15px;
+    padding: 10px 20px;
+}
+
+  .flex-container-form input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 220px;
+  }
+
+ .form{
+     text-align:center;
+ }
+
+ .form-btn{
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #ee3b00;
+    padding: 10px 20px;
+ }
+
+
+  .caption{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .section-form{
+      padding:80px;
+      color:white;
+  }
+
+  .flex-container-form textarea{
+    width:790px;
+    height:80px;
+  }
+
+  
+@media screen and (max-width: 960px){
+  .flex-container-form {
+    display: block;
+    justify-content: center;
+}
+.section-form {
+  padding: 80px 20px;
+  color: white;
+}
+
+.flex-container-form > div {
+  padding: 0 0 5px 0;
+}
+
+.flex-container-form input {
+  width: 90%;
+}
+
+.flex-container-form textarea{
+  width:90%;
+  height:80px;
+}
+}

@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 50% 50% ;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* padding: 20px; */
+    /* font-size: 30px; */
+    text-align: left;
+}
+
+.grid-item img{
+  width:100%;
+}
+
+.abt-section-padding {
+  padding: 70px;
+}
+
+.abt-section-padding h2{
+  margin-top: 0px;
+}
+@media (max-width:767px) { 
+  .one{
+      width:100%;
+}
+  .two{
+      width:100%;
+}
+
+.grid-container {
+  display: block;
+  
+}
+
+.abt-section-padding {
+  padding: 70px 5px;
+}
+}
+
+ 
